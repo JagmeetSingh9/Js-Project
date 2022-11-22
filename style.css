@@ -33,6 +33,6 @@ body{
 
 .paragraph-styling{
     margin: 0;
-    cursor: pointer;
+    cursor: pointer; 
     font-size: 20px;
 }
