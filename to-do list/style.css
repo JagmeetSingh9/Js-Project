@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+font-family: 'Courier New', Courier, monospace;font-size: 15px;
+}
+body{
+    width: 50%;
+    margin: 0 auto;
+}
+#container{
+    /* width: 1000px; */
+    padding-top: 25px;
+   margin-left: 175px;
+   margin-top: 5px;
+   
+}.val{
+    border: 2px solid black;
+    margin: 0;
+    padding: 0; 
+    width: 360px;
+
+}
+#inputfield{
+    width: 300px;
+    height: 45px;
+}#btn{
+    height: 40px;
+    width: 45px;
+}
+#inputfield:hover{
+    background-color:gainsboro;
+}
+
+.paragraph-styling{
+    margin: 0;
+    cursor: pointer;
+    font-size: 20px;
+}
