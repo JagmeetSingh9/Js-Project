@@ -2,28 +2,35 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Todo App JavaScript | CodingNepal</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <title>Document</title>
 </head>
 <body>
-  <div class="wrapper">
-    <header>Todo App</header>
-    <div class="inputField">
-      <input type="text" placeholder="Add your new todo">
-      <button><i class="fas fa-plus"></i></button>
-    </div>
-    <ul class="todoList">
 
-    </ul>
-    <div class="footer">
-      <span>You have <span class="pendingTasks"></span> pending tasks</span>
-      <button>Clear All</button>
-    </div>
-  </div>
-
-  <script src="index.js"></script>
-
+    <form class="input-fields">
+          <h1 style="text-align: center;">Resume Generator</h1>
+          <input type="text" name="name" placeholder="name" />
+          <input type="text" name="title" placeholder="Title eg web developer" />
+          <textarea name="workexp" placeholder="work experience"></textarea>
+          <textarea name="academics" placeholder="academic details"></textarea>
+          <input name="objective" placeholder="objective" />
+          <textarea name="skills" placeholder="skills" ></textarea>
+          <textarea name="projects" placeholder="projects" ></textarea>
+          <textarea name="achievements" placeholder="achievements" ></textarea>
+          <textarea name="contact" placeholder="contact" ></textarea>
+    </form>
+     <!-- resume preview -->
+    <div class="output">
+   
+    </div>  
+    <!-- button for toggle   -->
+   <div class="btn">
+        <button onclick="toggle()">Preview or edit</button>
+   </div>
+   <script src="https://cdn.ckeditor.com/ckeditor5/27.1.0/classic/ckeditor.js"></script>
+    <script src="./main.js"></script>
 </body>
-</html> 
+</html>
